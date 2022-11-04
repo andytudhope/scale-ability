@@ -103,8 +103,7 @@ contract SeedNFT is ERC721Enumerable {
                         string.concat(
                             svg.prop('stroke','#000'),
                             svg.prop('fill','transparent'),
-                            svg.prop('stroke-width','3'),
-                            svg.prop('transform','800')
+                            svg.prop('stroke-width','3')
                         )
                     ),
                 '</svg>'
