@@ -7,7 +7,7 @@ import 'https://raw.githubusercontent.com/w1nt3r-eth/hot-chain-svg/main/contract
 import 'https://raw.githubusercontent.com/OpenZeppelin/openzeppelin-contracts/v4.7.2/contracts/utils/Base64.sol';
 import 'https://raw.githubusercontent.com/OpenZeppelin/openzeppelin-contracts/v4.7.2/contracts/token/ERC721/extensions/ERC721Enumerable.sol';
 
-contract SeedNFT is ERC721Enumerable {
+contract Blobby is ERC721Enumerable {
     string constant nftName = 'Bee the Blob';
     string constant nftSymbol = 'BOB';
 
